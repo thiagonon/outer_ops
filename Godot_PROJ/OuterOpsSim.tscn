@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://lt3lqedirw5h"]
+
+[ext_resource type="Script" path="res://battle_simulator.gd" id="1_sajfs"]
+
+[node name="OuterOpsSim" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_sajfs")
+
+[node name="SimulateButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 566.0
+offset_right = 208.0
+offset_bottom = 631.0
+text = "Simulate Battle"
+
+[node name="LogLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 51.0
+offset_top = 424.0
+offset_right = 1118.0
+offset_bottom = 554.0
